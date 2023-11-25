@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Accesorios para Mujer</title>
+</head>
+<body>
+    <!-- Encabezado de la pagina -->
+    <header>
+         <!-- Titulo principal de la pagina -->
+        <h1>Bienvenidos a la Tienda de Accesorios</h1>
+    </header>
+
+    <!-- Navegacion de la pagina -->
+    <nav>
+        <!-- Lista no ordenada de opciones de navegacion -->
+        <ul>
+            <!-- Elementos de la lista con enlaces y funciones JavaScript onclick -->
+            <li><a href="javascript:void(0);" onclick="manejarOpcion('joyeria')">Joyeria</a></li>
+            <li><a href="javascript:void(0);" onclick="manejarOpcion('bolsos')">Bolsos</a></li>
+            <li><a href="javascript:void(0);" onclick="manejarOpcion('gafas')">Gafas</a></li>
+            <li><a href="javascript:void(0);" onclick="manejarOpcion('sombreros')">Sombreros</a></li>
+            <li><a href="javascript:void(0);" onclick="manejarOpcion('zapatos')">Zapatos</a></li>
+            <li><a href="javascript:void(0);" onclick="manejarOpcion('salir')">Salir</a></li>
+        </ul>
+    </nav>
+
+     <!-- Contenedor de productos (posiblemente se llenara dinamicamente con JavaScript) -->
+    <div id="contenedorProductos">
+    </div>
+
+<!-- Pie de pagina -->
+    <footer>
+        <!--Informacion sobre el total a pagar y la cantidad de articulos -->
+        <p>Total a Pagar: $<span id="totalPagar">0.00</span></p>
+        <p>Cantidad de Articulos: <span id="cantidadArticulos">0</span></p>
+         <!-- Boton con funcion JavaScript onclick para mostrar detalles del carrito -->
+        <button onclick="mostrarDetallesCarrito()">Mostrar Detalles del Carrito</button>
+    </footer>
+
+ <!-- Enlace al archivo JavaScript -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>

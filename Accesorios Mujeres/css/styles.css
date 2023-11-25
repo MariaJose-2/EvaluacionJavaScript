@@ -1,0 +1,99 @@
+/*aca añadimos estilos al cuerpo de la página */
+body {
+    background-image: url('../img/Fondo.jpg'); /* en esta linea se establece una imagen de fondo para la página */
+    font-family: 'Arial', sans-serif; /*en esta linea se define el tipo de fuente para el contenido del documento */
+    margin: 20px;  /* aca le añadimos una  márgen alrededor del cuerpo */
+}
+
+/* le añadimos estilos al header es decir para el encabezado de la página */
+header {
+    text-align: center; /* con esta funcion se puede centra el texto dentro del encabezado */
+    background-color: rgba(234, 157, 244, 0.953); /* aqui establecemos un color de fondo con transparencia */
+    padding: 10px; /* aca añadimos un relleno alrededor del encabezado */
+    font-family: "Latin Modern Roman"; /*con esta funcion podemos definir la fuente para el encabezado */
+    font-style: oblique; /*aca en esta linea definimo un estilo oblicuo al texto del encabezado */
+}
+
+/* añadimos estilos a nav es decir para la barra de navegación */
+nav {
+    text-align: center; /* aqui se centra el texto dentro de la barra de navegación */
+}
+
+/* añadimos estilos al ul para las listas no ordenadas */
+ul {
+    list-style-type: none; /* esta funcion nos sirve para Eliminar los marcadores de las listas */
+    padding: 10px; /* Añadimos relleno alrededor de las listas */
+}
+
+/* agregamos estilos al li es decir para los elementos de lista */
+li {
+    display: inline-block; /* aca en esta linea nos ayuda a mostrar los elementos de lista en línea con márgenes */
+    margin-right: 15px; /* Añade un margen derecho entre los elementos de lista */
+}
+
+/* agregamos estilos al a es decir para los enlaces */
+a {
+    text-decoration: none; /* esto ayuda a eliminar la decoración de subrayado de los enlaces */
+    color: #007BFF; /* nos perimte establecer el color del texto de los enlaces */
+    font-weight: bold; /* nos ayuda aplicar negrita al texto de los enlaces */
+}
+
+/* Estilos para los enlaces cuando el mouse está sobre ellos */
+a:hover {
+    color: rgba(234, 157, 244, 0.953); /* nos permite cambiar el color del texto al pasar el mouse */
+    font: oblique bold 180% cursive; /* esto nos permite aplicar estilos adicionales al texto al pasar el mouse */
+}
+
+/* agregamos estilos al contenedor de productos */
+#contenedorProductos {
+    margin-top: 20px; /* agregamos un margen superior al contenedor de productos */
+    display: flex; /* se utiliza el modelo de diseño flexible */
+    align-items: center;
+    flex-direction: row; /* nos ayuda a establecer la dirección de los elementos como fila */
+    justify-content: space-around; /* Distribuye equitativamente los elementos en el contenedor */
+    font-weight: bold; /* Aplica negrita al texto dentro del contenedor de productos */
+    font-family: "Latin Modern Roman"; /* nos permite definir la fuente para el texto dentro del contenedor */
+    font-style: oblique; /* Aplicamos un estilo oblicuo al texto dentro del contenedor */
+}
+
+/* agregamos estilos al producto  es decir para los elementos con la clase "producto" */
+.producto {
+    border: 2px solid  #007BFF; /*donde se añade un borde sólido alrededor de los elementos con la clase "producto" */
+    padding: 10px; /* se aplica relleno alrededor de los elementos con la clase "producto" */
+    margin: 20px; /* Añade un margen alrededor de los elementos con la clase "producto" */
+    text-align: center; /* Centra el texto dentro de los elementos con la clase "producto" */
+    width: 230px; /* Establece un ancho fijo para los elementos con la clase "producto" */
+}
+
+/* agregamos estilos para las imágenes dentro de elementos con la clase "producto" */
+.producto img {
+    max-width: 100%; /* Establecemos que la anchura máxima de la imagen sea el 100% del contenedor */
+    height: auto; /* nos permite ajustar automáticamente la altura para mantener la proporción original */
+    display: block; /* Convierte la imagen en un elemento de bloque */
+}
+
+/* agregamos estilos a los botones */
+button {
+    background-color: #007BFF; /* donde establecemos el color de fondo de los botones */
+    color: #fff; /* se da el color del texto de los botones */
+    border: none; /* Elimina el borde de los botones */
+    padding: 8px 16px; /* se añade relleno a los botones */
+    cursor: pointer; /* Cambia el cursor al pasar sobre los botones */
+    display: center;
+    margin-bottom: 5px;
+}
+
+/* agregamos estilos a los botones cuando el mouse está sobre ellos */
+button:hover {
+    background-color: rgba(234, 157, 244, 0.953); /* Cambia el color de fondo al pasar el mouse */
+}
+
+/* agregamos estilos para el pie de página */
+footer {
+    margin-top: 20px; /* nos ayuda añadir una margen superior al pie de página */
+    text-align: center; /* nos centra el texto dentro del pie de página */
+    font-family: "Latin Modern Roman"; /* nos ayuda a definir la fuente para el pie de página */
+    font-style: oblique; /* Aplica un estilo oblicuo al texto del pie de página */
+    color:black; /* Establece el color del texto del pie de página */
+    font-weight: bold; /* Aplica negrita al texto del pie de página */
+}
