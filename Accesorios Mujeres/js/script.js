@@ -83,7 +83,7 @@ function mostrarCategoria(categoria) {
                 
             <!-- Agrega un boton con un evento onclick que llama a la funcion agregarAlCarrito con parámetros específicos -->
                 <button onclick="agregarAlCarrito('${producto.nombre}', ${producto.precio})">Agregar al carrito</button>
-                <!-- En el HTML donde se muestra el producto en el carrito -->
+            <!-- En el HTML donde se muestra el producto en el carrito -->
                 <button onclick="eliminarDelCarrito('${producto.nombre}', ${producto.precio})">Eliminar del Carrito</button>
             </div>
         `;
